@@ -18,8 +18,8 @@ int main() {
   unsigned int numero{0};
   double suma{0.0};
   std::cin >> numero;
-  for(double i = 1; i <= numero; i++) {
-    suma += 1.0/i;
+  for(int i = 1; i <= numero; i++) {
+    suma += 1.0 / i;
   }
   std::cout << std::fixed << std::setprecision(4) << suma << std::endl;
   return 0;
